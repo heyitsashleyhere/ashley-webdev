@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Nanum+Pen+Script&family=Noto+Sans+TC&family=ZCOOL+KuaiLe&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ashley's Web Page</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="contact.html">CONTACT</a>
+          </li>
+          <li>
+            <a href="#">SERVICES</a>
+          </li>
+          <li>
+            <a href="index.html">HOME</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="services">
+      <ul type="none">
+        <li>Able to be active and <span class=keyWords>participate</span> in class.</li>
+        <img
+          class="vector"
+          src="./img/participate.jpg"
+          alt="raised fists in the air"
+        />
+        <li>Will be <span class=keyWords>on-time</span> and reach deadlines.</li>
+        <img
+          class="vector"
+          src="./img/ontime.jpg"
+          alt="alarm clock with tiny people"
+        />
+
+        <li>Steady internet connection and clear <span class=keyWords>communication</span> skills.</li>
+        <img
+          class="vector"
+          src="./img/communication.jpg"
+          alt="communicating with internet"
+        />
+      </ul>
+
+      <!-- FORM -->
+      <h3>Request for more</h3>
+      <form action="#" method="GET">
+
+        <!-- NAME INPUT -->
+        <div class="form">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">
+        </div>
+
+        <!-- EMAIL INPUT -->
+        <div class="form">
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email">
+        </div>
+        
+        <!-- MESSAGE INPUT -->
+        <div class="form">
+          <textarea name="message" id="message" cols="80" rows="10" placeholder="Enter your message here..."></textarea>
+        </div>
+
+       <!-- SEND BUTTON -->
+        <!-- <div id="sendButton"> -->
+          <!-- <input type="submit" value="Send"> -->
+          <button type="submit">Send</button>
+        <!-- </div> -->
+        
+      </form>
+
+    </main>
+    <footer><a href="#">Back to Top</a></footer>
+  </body>
+</html>
